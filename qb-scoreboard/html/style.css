@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+  height: 100vh;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@keyframes Jojo {
+  from {
+      right:-2%;
+  }
+  to {
+      right:0%;
+  }
+}
+.scoreboard-block {
+  display: none;
+  border-radius: 2vh;
+  position: absolute;
+  width: 21vh;
+  background-color: rgba(23, 23, 23, 0);
+  right: 0vh;
+  top: 30vh;
+  animation: Jojo 0.5s;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.075);
+  font-style: italic;
+
+}
+#status-tab-label {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 3vh;
+  font-weight: bold;
+}
+
+.info-beam-title {
+  position: absolute;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bolder;
+  font-size: 1.1vh;
+  letter-spacing: 0.1vh;
+  right: 0.5vh;
+  line-height: 2.25vh;
+  color: #ededed;
+  width: fit-content;
+}
+
+.info-beam-title-players {
+  position: absolute;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bolder;
+  font-size: 1.1vh;
+  letter-spacing: 0.1vh;
+  right: 0.4vh;
+  line-height: 2.25vh;
+  color: #ededed;
+  width: fit-content;
+}
+
+.info-beam-title-players-status {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  left: 1vh;
+  float: left;
+  text-align: left;
+  line-height: 2.31vh;
+  font-size: 1.4vh;
+}
+
+.info-beam-status {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  left: 0.4vh;
+  float: left;
+  text-align: left;
+  line-height: 2.31vh;
+  font-size: 1.4vh;
+}
+
+.scoreboard-info-beam {
+  margin-top: 0.3vh;
+  position: relative;
+  height: 2.25vh;
+  width: 100%;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #222320;
+  box-shadow: 0rem 0rem 0.5rem 0.05rem #2223205d;
+}
